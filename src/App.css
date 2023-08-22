@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Molengo&family=Roboto+Flex:opsz,wght@8..144,300&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Molengo&family=Noto+Nastaliq+Urdu&family=Roboto+Flex:opsz,wght@8..144,300&family=Rubik&display=swap');
+*{
+  font-family: 'Manrope', sans-serif;
+}
+html{
+  background-image: url(./images/pexels-tara-winstead-8386440.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+}
+.container{
+  text-align: center;
+  margin-top: 50px;
+
+}
+.container p{
+  width: 550px;
+  margin: 0 auto;
+  color: #fff;
+  margin-top: -10px;
+}
+.container h2{
+  color: #fff;
+}
+.my-main-content{
+ min-height:270px ;
+ background: #fff;
+ box-shadow: 0.5px 0.5px 5px 0.5px rgba(0, 0, 0, 0.253);
+ width: 550px;
+ margin: 0 auto;
+ margin-top: 20px;
+ border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ -ms-border-radius: 5px;
+ -o-border-radius: 5px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+
+.main-content{
+  padding: 8px;
+  font-family: 'Noto Nastaliq Urdu', serif;
+}
+.new_content{
+  font-family: 'Manrope', sans-serif;
+}
+.btn_style{
+  display: flex;
+  justify-content: space-around;
+  justify-self: flex-end;
+}
+.btn_style button{
+  padding: 9px 20px;
+  cursor: pointer;
+  background-image: linear-gradient(144deg,#00c8eb, #5B42F3 50%,#00c8eb);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  letter-spacing: 1.3px;
+  margin-bottom: 20px;
+}
+.btn_style button:hover{
+  background-image: linear-gradient(144deg,#019fbb, #432fc5 50%,#0294ad);
+}
+.labeles{
+  color: #ffffff;
+  font-weight: bolder;
+}
+#select{
+  margin-top: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  font-weight: 600;
+  padding: 2px;
+}
+#select:hover{
+  background-color: #f0f0f0;
+}
+@media screen and (max-width:600px) {
+  .my-main-content{
+    width: 90%;
+  }
+  .container p{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -10px;
+  }
+  .btn_style button{
+    padding: 2% 2%;
+  }
+
+}
+@media screen and (max-width:500px) {
+  .btn_style button{
+    padding: 2% 1%;
+    font-size: 10px;
+  }
+  
+}
+
+
+
+/* CSS */
+/* .button-63 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+} */
